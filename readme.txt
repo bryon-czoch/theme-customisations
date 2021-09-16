@@ -33,13 +33,16 @@ Think of this plugin as an alternative to adding code snippets to the functions.
 
 == Frequently Asked Questions ==
 
+
 = Isn't this what child themes are for? =
 
 Well, kind of. Sure, you can put your modifications in a child theme, but there are many places (including woothemes.com and wordpress.org) to download and use child themes. If you decide to use a child theme built by a third party and make modifications there, you would lose them when performing updates. Also if you make all your modifications in your own custom child theme then realise that you want to use a child theme from your favorite theme vendor, you'll have to move all of your modifications somewhere else. To avoid that hassle, use this plugin.
 
+
 = What templates can I override via this plugin? =
 
 As you know, to override a parent themes template file via child theme you can just copy/paste it into your child theme. This is the one drawback of using this plugin - you can only override top level templates - not template partials. This means that you could add a `page.php` template file to the `/custom/templates/` dir of this plugin and it would work fine. You could not however add a `header.php` or `footer.php` template file. Those would not work.
+
 
 = Should I put all my customisations in this single plugin? =
 
